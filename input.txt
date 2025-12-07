@@ -1,0 +1,83 @@
+ধরি base = 500;
+ধরি bonus = 100;
+ধরি penalty = 50;
+
+ধরি total = base + bonus - penalty;
+দেখাও total;
+
+ধরি length = 20;
+ধরি width = 10;
+ধরি area = length * width;
+ধরি perimeter = length + length + width + width;
+
+দেখাও area;
+দেখাও perimeter;
+
+ধরি marks = 85;
+ধরি passmark = 33;
+
+যদি ( marks > passmark ) {
+    দেখাও 1;
+} নাহলে {
+    দেখাও 0;
+}
+
+ধরি price = 1500;
+ধরি budget = 1000;
+
+যদি ( price < budget ) {
+    দেখাও 1;
+} নাহলে {
+    ধরি deficit = price - budget;
+    দেখাও deficit;
+}
+
+ধরি counter = 10;
+যতক্ষণ ( counter < 15 ) {
+    ধরি temp = counter * 2;
+    দেখাও temp;
+    counter = counter + 1;
+}
+
+ধরি m = 5;
+লুপ ( m = 5 ; m < 8 ; m = m + 1 ) {
+    ধরি square = m * m;
+    দেখাও square;
+}
+
+ধরি x = 100;
+ধরি y = 200;
+ধরি z = 50;
+ধরি result = x + y - z * 2;
+দেখাও result;
+
+ধরি a = 10;
+ধরি b = 20;
+ধরি c = 30;
+
+যদি ( c > a ) {
+    ধরি diff = c - a;
+    দেখাও diff;
+}
+
+ধরি start = 1;
+যতক্ষণ ( start < 4 ) {
+    ধরি val = start + 100;
+    দেখাও val;
+    start = start + 1;
+}
+
+ধরি numbers[5];
+numbers[0] = 10;
+numbers[1] = 20;
+numbers[2] = numbers[0] + numbers[1];
+দেখাও numbers[2];
+
+ধরি values[3];
+values[0] = 50;
+values[1] = 100;
+
+যদি ( values[1] > values[0] ) {
+    ধরি gap = values[1] - values[0];
+    দেখাও gap;
+}
